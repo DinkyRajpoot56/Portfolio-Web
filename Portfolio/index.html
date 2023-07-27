@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio-Website-Easfy Tutorials</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/bc0ad213d8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div id="header">
+        <div class="container">
+        <nav>
+            <img src="C:\Users\kush\Downloads\st_small_507x507-pad_600x600_f8f8f8.u3-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>
+                UI/UX Designer
+            </p>
+            <h1>
+                Hi,I'm <span>Dinky</span><br>Rajpoot from India
+            </h1>
+        </div>
+      </div>
+      </div>
+      <!-----------about------------->
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:\Users\kush\Documents\Snapchat-1820204254.jpg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am currently pursuing Bt.Tech from Baderia Global Institute Of Engineering
+                       and Management.I belong to Computer Science And Engineering department.
+                       I like to code.I am a good frontend Developer with skills having UI-UX,
+                       HTML,CSS and Javascript and a little bit of React.js.I am learning C,C++,Javascript
+                       java and python with machine learning and algorithms.I am currently becoming well-versed
+                       in Data Science and Data Analytics. </p>
+
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+    
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>UI-UX</span><br>Designing Web/App Interfaces
+                            </li>
+                            <li>
+                                <span>Web-Development</span><br>Web App Development
+                            </li>
+                            <li>
+                                <span>App-Development</span><br>Building Android App
+                            </li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li>
+                                <span>Devfolio SWOC 3.0</span><br>ReactJS Project Contributor
+                            </li>
+                            <li>
+                                <span>Data Analytics</span><br>Jobaaj Learnings
+                            </li>
+                            <li>
+                                <span>Hackerrank CodeChef Coder</span><br>Coding
+                            </li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li>
+                                <span>2011</span><br>St.Xaviers International High School-ICSE
+                            </li>
+                            <li>
+                                <span>2021</span><br>Nachiketa Senior Secondary School-CBSE
+                            </li>
+                            <li>
+                                <span>2025</span><br>Baderia Global Engineering College
+                            </li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-------------services------>
+      <div id="services">
+         <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I like to make websites through frontend
+                        technogies like HTML,CSS and Javascript</p>
+                    <a hrer="#">Learn More
+                    </a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI-UX Design</h2>
+                    <p>I was a participant in UI/UX Design Hackathon
+                        conducted in E-Summit IIT-Patna
+                    </p>
+                    <a hrer="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I am currently focusing on some
+                        android app projects.
+                    </p>
+                    <a hrer="#">Learn more</a>
+                </div>
+            </div>
+         </div>
+      </div>
+      <!---------------portfolio------------>
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="C:\Users\kush\Downloads\1652783513_web-d.jpg">
+                    <div class="layer">
+                        <h3>Full Stack Delivery  App</h3>
+                        <p>The app which is made with the help of javascript most awesome library 
+                            framework React.Dowmload it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="C:\Users\kush\Downloads\download (4).jpeg">
+                    <div class="layer">
+                        <h3>Face Mask Detection Model</h3>
+                        <p>This model is made through python machine learning libraries such as numopy,pandas,
+                            pyplot,matplotlib,seaborn,sklearn,tkinter,etc.It uses machine learning algorithms.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="C:\Users\kush\Downloads\download (5).jpeg">
+                    <div class="layer">
+                        <h3>Chatting Application</h3>
+                        <p>This app is and android application made through java and its server technologies.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+             <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+<!----------------contact--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>07439648648</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright 0 Dinky.Made with<i class="fa-solid fa-heart"></i> by Dinky Rajpoot.</p>
+    </div>
+</div>
+
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+           for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+      </script>
+
+
+      <script>
+        
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+      </script>
+    </body>
+</html>
